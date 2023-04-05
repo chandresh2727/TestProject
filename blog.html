@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- <link rel="stylesheet" href="utilities.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css"> -->
+    <link rel="stylesheet" href="blog.css">
+    <title>Blog</title>
+</head>
+<style>
+    /* .show,
+        .show-1 {
+            display: inline;
+        } */
+
+    .hide,
+    .hide-1,
+    .hide-2 {
+        display: none;
+    }
+</style>
+
+<body>
+    <!-- <header id="header-inner">
+        <div class="container">
+            <nav id="main-nav">
+                <h1 id="logo"> 
+                   <img src="chandreshAsALogo_2(2).jpg" alt="chandreshAsALogo">
+                </h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Activities</a></li>
+                    <li><a href="blog.html" >Blog</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> -->
+
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="chandreshAsALogo_2 (2).jpg" alt="ChandreshAsASmartBoy">
+            </div>
+    
+            <ul>
+                <li class="item1"><a href="index.html">Home</a></li>
+                <li class="item1"><a href="about.html">About Us</a></li>
+                <li class="item1"><a href="activity.html">Activity</a></li>
+                <li class="item1"><a href="contact.html">Contect Us</a></li>
+                <li class="item1"><a href="gallary.html">Gallary</a></li>
+                <li class="item1"><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home"></section>
+    <main>
+        <article class="flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-2 bg-dark">
+                        <h2>
+                            <img src="https://images.unsplash.com/photo-1523289333742-be1143f6b766?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                alt="" />
+
+                            Blog Post One
+                        </h2>
+                        <p class="meta">
+                            <i class="fas fa-user"></i>Posted by <strong>John Doe</strong> |
+                            April 29 2020
+                        </p>
+                        
+                        <p class="blog-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima harum magnam adipisci
+                            deserunt dolor quaerat.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+                            accusantium natus
+                            eius ullam odit suscipit recusandae, temporibus deserunt ratione, mollitia eveniet
+                            ducimus. Quibusdam,
+                            veritatis.<span class="show hide"> Architecto nulla tempora, laboriosam eaque enim libero
+                                
+                                veritatis autem illum beatae cupiditate odio quae accusantium! Officiis ad quidem quas
+                                cum, doloribus
+                                reprehenderit aperiam amet, beatae at voluptate perferendis obcaecati qui expedita ipsa
+                                
+                                aperiam ab esse rem, recusandae nostrum eaque aliquid eos optio magni quia corrupti
+                                consequuntur similique. Doloribus quibusdam numquam fugit beatae perspiciatis cumque
+                                magnam dolorum odit ratione cum, deserunt inventore sed delectus eligendi?</span>
+                            <br>
+                            <button id="btn" class="btn btn-light">Read More</button>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="flex-columns flex-reverse">
+            <div class="row">
+                <div class="column ">
+                    <div class="column-2 bg-light">
+                        <div class="column">
+                            <div class="column-1">
+                                <img src="https://images.unsplash.com/photo-1472905981516-5ac09f35b7f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80"
+                                    alt="" />
+                            </div>
+                        </div>
+                        <h2>Blog Post Two</h2>
+                        <p class="meta">
+                            <i class="fas fa-user"></i>Posted by <strong>Jane Doe</strong> |
+                            April 21 2020
+                        </p>
+                        <p class="blog-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                            voluptatem, assumenda magnam iste expedita architecto eaque
+                            quidem ipsam non deserunt perferendis. Tempore molestiae quo
+                            architecto debitis aliquam sunt ducimus quibusdam.Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Minima harum magnam adipisci deserunt dolor quaerat.
+                            <span class="show-1 hide-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores, accusantium
+                                natus
+                                eius ullam odit suscipit recusandae, temporibus deserunt ratione, mollitia eveniet
+                                ducimus. Quibusdam,
+                                veritatis. Architecto nulla tempora, laboriosam eaque enim libero ad, beatae quo amet
+                                officiis iste eveniet,
+                                illo cumque obcaecati! At molestias repudiandae accusamus labore ratione!<br> Delectus
+                                quidem suscipit id
+                                aliquid voluptatibus voluptas, quod optio est culpa cum minima voluptate consequuntur
+                                dolore omnis ab
+                                similique ipsum esse tempore dignissimos sed quas harum, quia quasi. Molestiae sapiente
+                                dolorem facilis
+                                veritatis autem illum beatae cupiditate odio quae accusantium! Officiis ad quidem quas
+                                cum, doloribus
+                                reprehenderit aperiam amet, beatae at voluptate perferendis obcaecati qui expedita ipsa
+                                
+                                voluptatum amet! Numquam ea ad cupiditate architecto temporibus, sit earum aut similique
+                                esse aliquid commodi error optio obcaecati distinctio nobis cum explicabo hic.
+                            </span>
+                            <br>
+                            <button id="btn-1" class="btn btn-dark">Read More</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- <footer class="footer">
+        <div class="footer_container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <div class="bottom-line1"></div>
+                    <pre>
+              near, 204 copper leaf,
+              opp. Parshwanath Jain mandir,
+              AEC Char Rasta, Bhuyangdev, 
+              Ahmedabad, Gujarat 380061
+            </pre>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigate</h4>
+                    <div class="bottom-line1"></div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow Me</h4>
+                    <div class="bottom-line1"></div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div> -->
+                    <!-- <div class="contact-info">
+                        <div>
+                            <i class="fas fa-envelope fa-2x"></i>
+                            <h3>Email</h3>
+                            <a href="mailto:softcodingsolutions@gmail.com"
+                                class="btn-dark">softcodingsolutions@gmail.com</a>
+
+                        </div>
+                        <div>
+                            <i class="fas fa-phone fa-2x"></i>
+                            <h3>Phone</h3>
+                            <a href="tel:+91 5555566655" class="btn-dark">+91 5555566655</a>
+                        </div>
+                    </div>
+                </div>
+    </footer>
+    <p class="footer copy">Copyright &copy; 2022 Reserved</p> --> 
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <div class="bottom-line1"></div>
+                    <pre>
+Near, 204 Copper Leaf, 
+Opp. Parshwanath Jain Mandir,       
+AEC Char Rasta, Bhuyangdev, 
+Ahmedabad, Gujarat 380061</pre>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navigate</h4>
+                    <div class="bottom-line1"></div>
+                    <ul class="list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="activity.html">Activity</a></li>
+                        <li><a href="contact.html">Contect</a></li>
+                        <li><a href="gallary.html">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <!-- <h4>Follow Me</h4>
+                    <div class="bottom-line1"></div>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div> -->
+                    <div class="contact-info">
+                        <div>
+                            <!-- <i></i> -->
+                            <h3 style="color: white;">Email</h3>
+                            <a href="#" class="btn-dark">chandresh</a>
+                        </div>
+                        <div>
+                            <i></i>
+                            <h3 style="color: white;">Phone</h3>
+                            <a href="trl:9292929" class="btn-dark">=2020202020</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <p class="copy" >Copyright © 2022 Reserved</p>
+    
+    <script>
+        const btn = document.querySelector( '#btn' );
+        const text = document.querySelector( '.show' );
+        btn.addEventListener( 'click', function() {
+            text.classList.toggle( 'hide' )
+
+            btn.textContent == "Read More"
+                ? ( btn.textContent = "Read Less" )
+                : ( btn.textContent = "Read More" );
+
+
+        } )
+        const btn1 = document.querySelector( '#btn-1' );
+        const text1 = document.querySelector( '.show-1' );
+        btn1.addEventListener( 'click', function() {
+            text1.classList.toggle( 'hide-1' )
+
+            btn1.textContent == "Read More"
+                ? ( btn1.textContent = "Read Less" )
+                : ( btn1.textContent = "Read More" );
+
+
+        } )
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+
+    <title>BLOG</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="chandreshAsALogo_2 (2).jpg" alt="ChandreshAsASmartBoy">
+            </div>
+    
+            <ul>
+                <li class="item1"><a href="index.html">Home</a></li>
+                <li class="item1"><a href="about.html">About Us</a></li>
+                <li class="item1"><a href="activity.html">Activity</a></li>
+                <li class="item1"><a href="contact.html">Contect Us</a></li>
+                <li class="item1"><a href="gallary.html">Projects</a></li>
+                <li class="item1"><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home"></section>
+
+    <main>
+        <article class="flex-columns">
+            <div class="column">
+                <div class="column-2 bg-dark">
+                    <h2>
+                        <img src="https://images.unsplash.com/photo-1523289333742-be1143f6b766?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="thisIsMyFirst">
+                        Blog Post One
+                    </h2>
+                    <p class="meta">
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                        Posted by
+                        <strong>John Doe</strong>
+                        | April 29 2020
+                    </p>
+                    <p class="blog-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, voluptatum expedita nobis ducimus voluptas itaque facere obcaecati velit, a deserunt repudiandae tenetur reiciendis quae provident praesentium. Perspiciatis minus suscipit praesentium!
+                        <span class="show hide">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, molestiae saepe ex sapiente alias quidem quo possimus expedita eaque, vel recusandae quis. Non voluptatibus aperiam velit earum repudiandae magni ab?
+                        </span>
+                        <br>
+                        <button id="btn btn-light">Read More</button>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="flex-columns flex-reverse">
+            <div class="row">
+                <div class="column ">
+                    <div class="column-2 bg-light">
+                        <div class="column-1">
+                            <img src="https://images.unsplash.com/photo-1472905981516-5a…lfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80" alt="thisSecondImg">
+                        </div>
+                    </div>
+                    <h2>Blog Post Two</h2>
+                    <p class="meta">
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                        Posted by
+                        <strong>Jane Doe</strong>
+                        | April 21 2020
+                    </p>
+                    <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur autem placeat, nihil doloribus quas dolore debitis cumque quidem voluptatum accusamus quisquam facilis ipsam quis consequuntur omnis enim illo aliquid facere.
+                        <span class="show-1 hide-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eaque eligendi fuga a dolor nemo, et sit iste vitae! Iure numquam nisi, officia deserunt aspernatur non dolore culpa provident at.</span>
+                    </p>
+                    <br>
+                    <button id="btn-1" class="btn btn-dark">Read More</button>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const btn = document.querySelector( '#btn' );
+        const text = document.querySelector( '.show' );
+        btn.addEventListener( 'click', function() {
+            text.classList.toggle( 'hide' )
+
+            btn.textContent == "Read More"
+                ? ( btn.textContent = "Read Less" )
+                : ( btn.textContent = "Read More" );
+
+
+        } )
+        const btn1 = document.querySelector( '#btn-1' );
+        const text1 = document.querySelector( '.show-1' );
+        btn1.addEventListener( 'click', function() {
+            text1.classList.toggle( 'hide-1' )
+
+            btn1.textContent == "Read More"
+                ? ( btn1.textContent = "Read Less" )
+                : ( btn1.textContent = "Read More" );
+
+
+        } )
+
+    </script>
+</body>
+</html> -->
